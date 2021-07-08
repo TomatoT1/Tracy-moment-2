@@ -9,7 +9,13 @@ def triangle():
   for i in range(3):
     turtle.left(120)
     turtle.forward(100)
+def square():
+  for i in range (4):
+    turtle.right(90)
+    turtle.forward(50)
 if choice == "circle":
   circle()
 if choice == "triangle":
   triangle()
+if choice == "square":
+  square()
